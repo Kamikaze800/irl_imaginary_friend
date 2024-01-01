@@ -14,8 +14,7 @@ import os
 dotenv.load_dotenv()
 num = int(os.environ.get('num'))
 
-token = "MTE4ODQ2NjEzNzc2MDAyNjY2NA.Gj6OjG.IJJAPOPKeEO6-8DNgJzqRnMOUSWzGewv4LEfhk"
-# token = 'MTE5MDU3NjYwMzExODQ0NDU2NA.Gdb6Jf.n1ysN3mIgzWD7FDuEi7b-6q3zurV-Cd6KNBvrs'
+token = ''
 
 intents = discord.Intents.default()  # Подключаем "Разрешения"
 intents.message_content = True
